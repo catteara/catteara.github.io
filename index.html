@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en-us">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Assignment portal for WDD 230: Web Frontend Developement at BYU-I">
   <title>Catteara</title>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Satisfy&display=swap');
@@ -20,10 +23,10 @@
       h1 {
         padding-left: 280px;
       }
-      h3, li, footer {
+      h2, li, footer {
         font-family: montserrat, sans-serif;
       }
-      h3{
+      h2{
           padding-left: 40px;
       }
       li a {
@@ -61,7 +64,7 @@
     <header>
         <h1>Catteara Allred</h1>
     </header>
-    <h3>WDD 230: Assignment Portal</h3>
+    <h2>WDD 230: Assignment Portal</h2>
     <hr>
     <ul>
         <li>Lesson 02: <a href="#">Assignment Link</a></li>
@@ -69,7 +72,7 @@
         <li>Lesson 04: <a href="#">Assignment Link</a></li>
     </ul>
     <footer>
-        &#169; 2021 | Catteara Allred | Arizona | <a href="https://www.byui.edu/">BYU-I Online Learning</a>
+        &#169; 2021 | Catteara Allred | Arizona | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
         <br>
         Last Updated: 
         <script>
@@ -84,7 +87,7 @@
     var d = new Date();
     var dayName = dayNames[d.getDay()];
     var monthName = months[d.getMonth()];
-    var fullDate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
+    var fullDate = d.getTime + " " dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
     document.getElementById("rightNow").innerHTML = document.write(fullDate);
 
