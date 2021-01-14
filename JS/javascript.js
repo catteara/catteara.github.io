@@ -1,7 +1,5 @@
 "use strict";
 
-function now() {
-
     var dayNames = [
         "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
     ];
@@ -14,5 +12,3 @@ function now() {
     var fullDate = d.getHours() + ":" + d.getMinutes() + " " + dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
     document.getElementById("rightNow").innerHTML = document.write(fullDate);
-
-}
