@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Satisfy&display=swap');
+body {
+  background: #efe9e7;
+  color: #012a36;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header {
+  background: #0b5b59;
+  color: #efe9e7;
+  font-family: satisfy, serif;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+h2, li, footer {
+  font-family: montserrat, sans-serif;
+}
+h2{
+    padding-left: 40px;
+}
+li a {
+  text-decoration: none;
+  color: #1bdad4;
+}
+ul li{
+  list-style-type: none;
+  padding-left: 80px;
+}
+footer {
+  background: #0b5b59;
+  color: #efe9e7;
+  padding: 20px;
+  text-align: center;
+}
+li a:visited, footer a:hover{
+  text-decoration: none;
+}
+footer a:visited, a:hover, footer a {
+  text-decoration: underline;
+  color: #1bdad4;
+}  
+img {
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px #0b5b59;
