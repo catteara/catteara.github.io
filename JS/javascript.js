@@ -12,5 +12,3 @@
     var fullDate = d.getHours() + ":" + d.getMinutes() + " " + dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
     document.getElementById("rightNow").innerHTML = "Last Updated" + document.write(fullDate);
-    
-    
