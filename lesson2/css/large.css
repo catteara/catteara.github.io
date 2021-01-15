@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1000px){
+    main{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        background:green;
+    }
+    .hierarchy{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .fitts{
+        grid-column: 2/3;
+        grid-area: 1;
+    }
+    .alignment{
+        grid-column: 3/4;
+        grid-area: 1;
+    }
+    p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    }
