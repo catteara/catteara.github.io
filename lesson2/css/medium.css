@@ -1,10 +1,9 @@
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 750px){
 main{
-    display:grid;
+    display:grid !important;
     grid-template-columns:auto auto auto;
     width: auto;
-    padding: 20px;
-    background: blue;
+    margin: 20px;
 }
 .hierarchy{
     grid-column: 1/2;
@@ -19,6 +18,7 @@ main{
     grid-area: 1;
 }
 p{
-    padding: 20px;
-}
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }

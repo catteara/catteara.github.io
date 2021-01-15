@@ -2,10 +2,10 @@
     main{
         display: grid;
         grid-template-columns:auto auto auto;
-        width: auto;
+    }
+    div{
         padding-left: 50px;
         padding-right: 50px;
-        background:green;
     }
     .hierarchy{
         grid-column: 1/2;

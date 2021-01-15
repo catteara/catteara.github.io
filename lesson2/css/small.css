@@ -2,14 +2,12 @@
 body {
   background: #efe9e7;
   color: #012a36;
-  padding: 0px;
-  margin-left: 0%;
-  margin-right: 0%;
 }
 header {
   background: #012a36;
   color: #efe9e7;
   padding: 20px;
+  width: 100%;
 }
 h1 {
   text-align: center;  
