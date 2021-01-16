@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 65em){
     main{
         display: grid;
         grid-template-columns:auto auto auto;
@@ -23,4 +23,13 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    }
+    h2{
+        font-size: 32px;
+      }
+      h3{
+        font-size: 22px;
+      }
+      h4{
+        font-size: 18px;
+      }
+}
