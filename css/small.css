@@ -15,10 +15,10 @@ header {
 h1 {
   text-align: center;
 }
-h2, li, footer {
+h2, li, footer, h3 {
   font-family: montserrat, sans-serif;
 }
-h2{
+h2, h3{
     padding-left: 40px;
 }
 li a {
@@ -50,4 +50,5 @@ img {
     margin-top: 20px;
     margin-right: 20px;
     box-shadow: 0 0 10px #0b5b59;
+    background-color: white;
 }
