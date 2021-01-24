@@ -6,8 +6,9 @@ body {
 header {
   background: #012a36;
   color: #efe9e7;
-  padding: 20px;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 h1 {
   text-align: center;  
@@ -51,9 +52,8 @@ a:visited, a:hover{
   font-weight: bold;
 }
 img {
-    padding-left: 5%;
     width: 90%;
-    margin: 20px;
+    margin: 5%;
 }
 .alignment p{
   padding-bottom: 50px;
