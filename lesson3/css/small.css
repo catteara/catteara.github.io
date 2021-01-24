@@ -24,6 +24,11 @@ h2, h3, h4{
 li a {
   text-decoration: none;
   color: #dbe0e6;
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;     
+  margin: -2em; 
 }
 ul li{
   list-style-type: none;
