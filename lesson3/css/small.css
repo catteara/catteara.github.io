@@ -1,37 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Satisfy&display=swap');
-body {
-  background: #efe9e7;
-  color: #012a36;
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gothic+A1&display=swap');body {
+ 
+  background: #dbe0e6;
+  color: #223559;
+  padding: 00px;
   margin-left: 20%;
   margin-right: 20%;
 }
 header {
-  background: #012a36;
-  color: #efe9e7;
-  font-family: satisfy, serif;
+  background: #223559;
+  color: #dbe0e6;
+  font-family: 'DM Serif Display', serif;
   padding: 20px;
 }
 h1 {
   text-align: center;
 }
-h2, li, footer, h3, p {
-  font-family: montserrat, sans-serif;
+h2, li, footer, h3, p, h4 {
+  font-family: 'Gothic A1', sans-serif;
 }
-h2, h3{
+h2, h3, h4{
     padding-left: 40px;
 }
 li a {
   text-decoration: none;
-  color: #012a36;
+  color: #dbe0e6;
 }
 ul li{
   list-style-type: none;
   padding-left: 80px;
+  padding: 10px;
 }
 footer {
-  background: #012a36;
-  color: #efe9e7;
+  background: #223559;
+  color: #dbe0e6;
   padding: 20px;
   text-align: center;
 }
@@ -40,30 +41,108 @@ li a:visited, footer a:hover{
 }
 footer a {
   text-decoration: underline;
-  color: #1bdad4;
+  color: #adfffa;
 }  
-a:visited, a:hover{
+nav ul li:hover{
   font-weight: bold;
-}
-img {
-    width: 150px;
-    margin-top: 20px;
-    margin-right: 20px;
-    box-shadow: 0 0 10px #0b5b59;
-    background-color: white;
-}
-nav ul li {
-  float: left;
+  background-color: #5d5988;
 }
 
-nav ul li a {
-  display: block;
-  padding: 8px;
-  background: #012a36;
-  color: #efe9e7;
+p a{
+  color: #5d5988;
 }
 
-p {
-  padding-left: 40px;
-  padding-right: 400px;
+p a:hover {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.logo {
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dbe0e6;
+    border-radius: 50%;
+}
+
+p, div {
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+nav {
+  margin: 0px;
+  margin-left: -40px;
+  margin-top: -25px;
+  padding-bottom: 5px;
+  background: #223559;
+  text-align: center;
+}
+
+#dm {
+  font-family: "DM Serif DIsplay", serif;
+  font-size: 2em;
+  color: #223559;
+}
+
+#gothic {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 2em;
+  color: #223559;
+}
+
+.black {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #0c0c0c;
+  color: #dbe0e6;
+  vertical-align: center;
+  font-weight: bold;
+  border: solid 1px #0c0c0c;
+}
+
+.grey {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #dbe0e6;
+  color: #0c0c0c;
+  vertical-align: center;
+  font-weight: bold;
+  border: solid 1px #0c0c0c;
+}
+
+.blue {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #223559;
+  color: #dbe0e6;
+  vertical-align: center;
+  font-weight: bold;
+  border: solid 1px #0c0c0c;
+}
+
+.purple {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #5d5988;
+  color: #dbe0e6;
+  vertical-align: center;
+  font-weight: bold;
+  border: solid 1px #0c0c0c;
+}
+
+.cyan {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #adfffa;
+  color: #0c0c0c;
+  vertical-align: center;
+  font-weight: bold;
+  border: solid 1px #0c0c0c;
 }
