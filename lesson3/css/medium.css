@@ -2,7 +2,8 @@
 .logo {
     float: left;
 }
-ul li {
-  display: inline-block;
+nav ul {
+  display: flex;
+  justify-content: center;
 }
 }
