@@ -7,13 +7,17 @@
   margin-right: 20%;
 }
 header {
+  width: 100%;
   background: #223559;
   color: #dbe0e6;
   font-family: 'DM Serif Display', serif;
-  padding: 20px;
+  padding: 20px 0;
 }
 h1 {
   text-align: center;
+}
+h2{
+  margin-top: 40px;
 }
 h2, li, footer, h3, p, h4 {
   font-family: 'Gothic A1', sans-serif;
@@ -21,19 +25,23 @@ h2, li, footer, h3, p, h4 {
 h2, h3, h4{
     padding-left: 40px;
 }
-li a {
+nav ul {
+  margin: 0;
+  padding: 0;
+  background: #223559;
+  text-align: center;
+}
+nav ul li a {
   text-decoration: none;
   color: #dbe0e6;
   display: block;
   position: relative;
   z-index: 1;
-  padding: 2em;     
-  margin: -2em; 
-}
-ul li{
+  padding: 1.2em;     
+  margin: 0; 
   list-style-type: none;
-  padding-left: 80px;
-  padding: 10px;
+  padding-top: -20px;
+  border-top: 1px solid rgba(0,0,0,0.3);
 }
 footer {
   background: #223559;
@@ -52,16 +60,13 @@ nav ul li:hover{
   font-weight: bold;
   background-color: #5d5988;
 }
-
 p a{
   color: #5d5988;
 }
-
 p a:hover {
   color: #0c0c0c;
   text-decoration: none;
 }
-
 .logo {
     display: block;
     width: 80px;
@@ -70,32 +75,23 @@ p a:hover {
     background-color: #dbe0e6;
     border-radius: 50%;
 }
-
 p, div {
   padding-left: 10%;
   padding-right: 20%;
 }
-
-nav {
-  margin: 0px;
-  margin-left: -40px;
-  margin-top: -25px;
-  padding-bottom: 5px;
-  background: #223559;
-  text-align: center;
-}
-
+/* For typography */
 #dm {
   font-family: "DM Serif DIsplay", serif;
   font-size: 2em;
   color: #223559;
 }
-
 #gothic {
   font-family: "Gothic A1", sans-serif;
   font-size: 2em;
   color: #223559;
 }
+
+/* For Color Schemes*/
 
 .black {
   width: 100%;
@@ -107,7 +103,6 @@ nav {
   font-weight: bold;
   border: solid 1px #0c0c0c;
 }
-
 .grey {
   width: 100%;
   padding-top: 25px;
@@ -118,7 +113,6 @@ nav {
   font-weight: bold;
   border: solid 1px #0c0c0c;
 }
-
 .blue {
   width: 100%;
   padding-top: 25px;
@@ -129,7 +123,6 @@ nav {
   font-weight: bold;
   border: solid 1px #0c0c0c;
 }
-
 .purple {
   width: 100%;
   padding-top: 25px;
@@ -140,7 +133,6 @@ nav {
   font-weight: bold;
   border: solid 1px #0c0c0c;
 }
-
 .cyan {
   width: 100%;
   padding-top: 25px;
