@@ -1,21 +1,20 @@
-@media only screen and (min-width: 32.5em) {
-    
+@media only screen and (min-width: 35em) {
+
   nav button {
     display: none;
   }
 
   nav ul {
     justify-content: center;
-
   }
 
-  nav ul.hide{
+  nav ul.hide {
     display: flex;
   }
 
   nav ul li a {
     border: none;
-    padding: .8rem 1rem;
+    padding: 0.8rem 1rem;
   }
-  
+
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gothic+A1&display=swap');
 
+
 .logo {
     float: left;
     width: 70px;
@@ -48,6 +49,7 @@ nav button {
     font-size: 2rem;
     color: #dbe0e6;
 }
+
 nav {
     background-color: #223559;
     font-family: 'Gothic A1', sans-serif;
