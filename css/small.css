@@ -42,7 +42,7 @@ footer a {
   text-decoration: underline;
   color: #1bdad4;
 }  
-a:visited, a:hover{
+a:visited, a:hover {
   font-weight: bold;
 }
 img {
@@ -51,4 +51,10 @@ img {
     margin-right: 20px;
     box-shadow: 0 0 10px #0b5b59;
     background-color: white;
+}
+a.done {
+  text-decoration: underline;
+}
+a.done:hover {
+  text-decoration-style: wavy;
 }

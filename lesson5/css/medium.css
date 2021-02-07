@@ -1,0 +1,32 @@
+@media only screen and (min-width: 40em) {
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+  }
+
+  .hero {
+  position: relative;
+  }
+
+  .weather {
+    background-color: #dbe0e6;
+    opacity: 80%;
+    position: absolute;
+    top: 300px;
+    left: 175px;
+  }
+
+}
