@@ -12,8 +12,8 @@
 
   h1 {
     text-align: left;
-    width: 400px;
-    margin-right: 0px;
+    width: 700px;
+    margin-right: 0;
   }
 
   ul li {
@@ -74,13 +74,18 @@
   }
 
   #summary img {
-    width: 100px;
+    width: 140px;
   }
 
   #summary li{
-    width: 100px;
+    display: inline-block;
+    width: 140px;
     padding-top: 15px;
     text-align: center;
   }
 
+  .weather {
+    left: 200px;
+  }
 
+}

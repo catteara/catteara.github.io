@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gothic+A1&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gothic+A1&display=swap');*/
 
 
 .logo {
@@ -25,7 +25,7 @@ body {
 }
 
 header h1 {
-    width: 500px;
+    max-width: 500px;
     font-family: 'DM Serif Display', serif;
     margin-top: 0;
     padding-top: 20px;
@@ -41,10 +41,10 @@ h2, h3, h5, li, p, div, footer {
 }
 
 nav button {
-    float:right;
-    margin-top: -17%;
-    margin-right: 5%;
-    padding: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -52,6 +52,7 @@ nav button {
 }
 
 nav {
+    text-align:center;
     background-color: #223559;
     font-family: 'Gothic A1', sans-serif;
     width: 100%;
@@ -84,7 +85,7 @@ main {
 }
 
 div {
-    padding: 10px 25px;
+    padding: 10px 5px;
 }
 
 footer div {
@@ -132,7 +133,7 @@ nav ul li:hover {
 }
 
 .article {
-    max-width: 400px;
+    max-width: 250px;
 }
 
 .map {
@@ -170,7 +171,11 @@ nav ul li:hover {
 
 #summary li{
     list-style-type: none;
-    display:inline-block;
+    display:block;
+}
+
+#summary, #summary ul{
+    padding: 0;
 }
 
 #summary .high{
