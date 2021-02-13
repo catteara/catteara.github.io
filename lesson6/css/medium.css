@@ -29,8 +29,10 @@
   background-color: #dbe0e6;
   opacity: 80%;
   position: absolute;
-  top: 350px;
+  top: 245px;
   left: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 }

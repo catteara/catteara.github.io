@@ -7,10 +7,10 @@
     <title>Weather Weekly:Preston Town Page</title>
     <meta name="description" content="Assignment: Build general layout for Preston, Idaho Town weather web page. Including a logo, site name, motto, three viewports, responsive, use javascript and contain other features and information.">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/lesson5/css/small.css">
-    <link rel="stylesheet" href="/lesson5/css/medium.css">
-    <link rel="stylesheet" href="/lesson5/css/large.css">
-    <link rel="shortcut icon" href="/lesson5/images/favicon.ico">
+    <link rel="stylesheet" href="/lesson6/css/small.css">
+    <link rel="stylesheet" href="/lesson6/css/medium.css">
+    <link rel="stylesheet" href="/lesson6/css/large.css">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
 </head>
 
 <body>
@@ -33,14 +33,14 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <!--<img class="hero" src="/lesson5/images/hero.webp" alt="Preston Idaho Hero Image">
-        <img class="hero-large" src="/lesson5/images/hero-large.webp" alt="Preston Idaho Hero Image">-->
         <img class="hero" src="images/small-hero.webp" srcset="images/small-hero.webp 510w, images/med-hero.webp 815w, images/large-hero.webp 1000w" sizes="100vw" alt="Preston Idaho Hero Image" >
         <div class="weather">
             <h3>Weather Summary</h3>
-            <p>Cloudy today</p>
-            <p>28&#176; with a high of 33&#176;</p>
-            <p>0% chance of snow</p>
+            <p>Currently: Rainy</p>
+            <p>High: <span id="temp">54</span>&#176;F</p> 
+            <p>Wind Chill:<span id="windChill"></span>&#176;F</p>
+            <p>Humidity: 95%</p>
+            <p>Wind Speed: <span id="windSpeed">12</span> mph</p>
         </div>
         <div>
             <h3>Five Day Forecast</h3>
@@ -72,8 +72,8 @@
         <a href="https://www.instagram.com/"><img class="social" src="/lesson5/images/instagram.png" alt="instagram"></a>
         <a href="https://www.twitter.com/"><img class="social" src="/lesson5/images/twitter.png" alt="twitter"></a>
     </footer>
-    <!--<script src="/lesson5/js/summary.js"></script>-->
-    <script src="/lesson5/js/right-now.js"></script>
+    <script src="/lesson6/js/right-now.js"></script>
+    <script src="/lesson6/js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
