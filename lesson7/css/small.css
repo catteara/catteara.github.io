@@ -33,7 +33,7 @@ header h5 {
     padding-bottom: 20px;
 }
 
-h2, h3, h5, li, p, div, footer {
+h2, h3, h5, li, p, div, footer, figcaption {
     font-family: 'Gothic A1', sans-serif;
 }
 
@@ -173,4 +173,40 @@ nav ul li:hover {
 
 #summary .high{
     font-weight: bold;
+}
+
+figure {
+    display: inline-block;
+    background-color: white;
+    width: 330px;
+    height: 375px;
+    text-align: center;
+}
+figure img.gallery {
+    max-width: 300px;
+    padding-top: 15px;
+}
+
+figure:hover {
+    box-shadow: 3px 3px 5px #5d5988;
+}
+
+figcaption {
+    display: none;
+    position: relative;
+}
+
+figure:hover figcaption {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+  
+img[data-src] {
+    filter: blur(0.2em);
 }

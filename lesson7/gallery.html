@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Weekly:Preston Town Page</title>
+    <meta name="description" content="Assignment: Build general layout for Preston, Idaho Town weather web page. Including a logo, site name, motto, three viewports, responsive, use javascript and contain other features and information.">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson7/css/small.css">
+    <link rel="stylesheet" href="/lesson7/css/medium.css">
+    <link rel="stylesheet" href="/lesson7/css/large.css">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+</head>
+
+<body>
+    <div id="pancakes"></div>
+    <header>
+        <img src="/lesson3/images/iconfinder_sun_4677537.png" alt="Weather Weekly Logo" class="logo">
+        <h1>Weather Weekly</h1>
+        <h5>More than just the weather</h5>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="lesson7/gallery.html">Gallery</a></li>
+        </ul> 
+    </nav>
+
+    <main>
+        <h2>Gallery</h2>
+        <span id='gallery'>
+        <figure>
+            <img class="gallery gallery1" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery1.webp" alt="Clear Morning Skies"/>
+            <figcaption>Clear Morning Skies</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery2" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery2.webp" alt="Rain Drops on a Leaf"/>
+            <figcaption>Rain Drops on a Leaf</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery3" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery3.webp" alt="Clear Evening Skies"/>
+            <figcaption>Clear Evening Skies</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery4" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery4.webp" alt="Mostly Clear Day"/>
+            <figcaption>Mostly Clear Day</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery5" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery5.webp" alt="Light Storm Damage"/>
+            <figcaption>Light Storm Damage</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery6" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery6.webp" alt="A Nice, Cloudy Day"/>
+            <figcaption>A Nice, Cloudy Day</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery7" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery7.webp" alt="First Few Snows of the Season"/>
+            <figcaption>First Few Snows of the Season</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery8" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery8.webp" alt="Elk in the Fresh Snow"/>
+            <figcaption>Elk in the Fresh Snow</figcaption>
+        </figure>
+        <figure>
+            <img class="gallery gallery9" src="/lesson7/images/placeholder.png" data-src="/lesson7/images/gallery9.webp" alt="After a Heavy Storm has Calmed"/>
+            <figcaption>After a Heavy Storm has Calmed</figcaption>
+        </figure>
+    </span>
+    </main>
+
+    <footer>
+        <p>Contact Information</p>
+        <p>&#9993; Email</p>
+        <p>&#128222;Phone Number</p>
+        <img class="map" src="/lesson5/images/map.webp" alt="Map of Preston Idaho"><br>
+        &#169;Weather Weekly | <span>Photos by Alex Bertha and Toni Tisdale on Unsplash</span> | Catteara Allred
+        <br><br>
+        <span id="rightNow"></span> <br><br>
+        <a href="https://www.facebook.com/"><img class="social" src="/lesson5/images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="/lesson5/images/instagram.png" alt="instagram"></a>
+        <a href="https://www.twitter.com/"><img class="social" src="/lesson5/images/twitter.png" alt="twitter"></a>
+    </footer>
+    <script src="/lesson7/js/lazy.js"></script>
+    <script src="/lesson7/js/right-now.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                "DM Serif Display",
+                "Gothic A1"
+              ]
+            }
+          });
+    </script>
+</body>
+
+</html>
