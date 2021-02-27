@@ -33,7 +33,7 @@ header h5 {
     padding-bottom: 20px;
 }
 
-h2, h3, h5, li, p, div, footer, figcaption {
+h2, h3, h5, li, p, div, footer, figcaption, label, legend, input {
     font-family: 'Gothic A1', sans-serif;
 }
 
@@ -205,4 +205,73 @@ img {
   
 img[data-src] {
     filter: blur(0.2em);
+}
+
+/* Form */
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #223559;
+    border-radius: 10px;
+    padding: .5rem 2%
+}
+
+form legend {
+    color: #223559;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #223559;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #223559;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: .5rem;
+    color: #223559;
+}
+
+form input.submitButton {
+    border: none;
+    background-color: #5d5988;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width:20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 4px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 4px;
+}
+
+.larger, .range {
+    height: 40px;
+    display: block;
+}
+
+.radio {
+    padding-bottom: 5px;
+    padding-top: 30px;
 }

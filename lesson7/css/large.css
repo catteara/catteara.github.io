@@ -116,4 +116,15 @@
     padding-left: 1%;
   }
 
+  /* form */
+  form label.sbs {
+    padding: .4rem 0;
+}
+
+  .submitButton:hover {
+    color: #223559;
+    background-color: #adfffa;
+    border: 1px solid #223559;
+  }
+
 }
