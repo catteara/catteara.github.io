@@ -1,0 +1,39 @@
+h1, h2 {
+    font-family: "DM Serif Display";
+    text-align: center;
+}
+
+p, footer {
+    font-family: "Gothic A1";
+    text-align: center;
+}
+
+.cards section{
+    background-color: #223559;
+    color: #dbe0e6;
+    padding: 20px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: block;
+}
+
+@media only screen and (min-width: 617px) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
