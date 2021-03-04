@@ -266,7 +266,7 @@ form label.top input:required:valid {
     border-left: green solid 4px;
 }
 
-.larger, .range {
+.larger, .range, datalist {
     height: 40px;
     display: block;
 }

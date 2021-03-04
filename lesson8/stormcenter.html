@@ -37,7 +37,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z]+{5,}" required></label>
+                <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z]{5,}" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="example@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Zip Code* <input type="number" name="zipcode" required></label>
@@ -56,10 +56,23 @@
                     </datalist>
                 </label>
                 <label class="sbs">Storm Severity (1-10)
-                <input type="range" name="range" class="range" min="0" max="10"></label>
+                <input type="range" class=range name="range" list="tickmarks" min=1 max=10>
+                    <datalist id="tickmarks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+                </label>
                 <label class="top">Storm Region
                     <select name="type">
-                    <option>Please Select &#9662;</option>
+                    <option disabled="disabled" selected="selected">Please Select &#9662;</option>
                     <option value="preston">Preston</option>
                     <option value="springs">Soda Springs</option>
                     <option value="haven">Fish Haven</option>
