@@ -275,3 +275,25 @@ form label.top input:required:valid {
     padding-bottom: 5px;
     padding-top: 30px;
 }
+
+.mainImg {
+    width: 100%;
+}
+
+section {
+    background-color: #223559;
+    color: #dbe0e6;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+div h5{
+    margin-top: -15px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+section img {
+    max-width: 80%;
+}

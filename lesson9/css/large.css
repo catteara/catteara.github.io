@@ -87,14 +87,41 @@
 
   figure:hover {
     box-shadow: 3px 3px 5px #5d5988;
-}
+  }
+
+  div.summaries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
+
+  section{
+    display: block;
+  }
+    
+  section:nth-child(1) {
+    grid-column: 1;
+  }
+
+  section:nth-child(2) {
+    grid-column: 2;
+  }
+
+  section:nth-child(3) {
+    grid-column: 3;
+  }
+
+  div.news.main {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 900px) {
 
   #gallery {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
   }

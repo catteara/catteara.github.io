@@ -29,4 +29,3 @@ fetch(requestURL)
 
     
   });
-
