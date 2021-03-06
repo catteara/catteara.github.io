@@ -16,6 +16,10 @@ p, footer {
     text-align: center;
 }
 
+img {
+    max-width: 80%;
+}
+
 .cards {
     display: block;
 }

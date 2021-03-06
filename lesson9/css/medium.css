@@ -1,0 +1,54 @@
+@media only screen and (min-width: 617px) {
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+  }
+
+  .hero {
+  position: relative;
+  }
+
+  #summary li{
+    padding: 5px;
+}
+
+.weather {
+  background-color: #dbe0e6;
+  opacity: 80%;
+  position: absolute;
+  top: 245px;
+  left: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+figure {
+  width: 230px;
+  height: 300px;
+  margin: 0px;
+  margin-bottom: 40px;
+  margin-right: 5px;
+}
+figure img.gallery {
+  max-width: 200px;
+}
+
+figure:hover figcaption {
+  position: absolute;
+  margin-left: 15px;
+}
+
+}
