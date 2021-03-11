@@ -24,7 +24,10 @@ fetch(requestURL)
         p1.textContent = "Year Founded: " + towns[i].yearFounded;
         p2.textContent = "Population: " + towns[i].currentPopulation;
         p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-        image.setAttribute('src', towns[i].photo);
+        image.setAttribute('src',"./images/" + towns[i].photo);
+
+        towns[1].alt="Fish Haven";
+        towns[5].alt="Preston";
 
         summary.appendChild(h3);
         summary.appendChild(h5);
@@ -53,7 +56,9 @@ fetch(requestURL)
         p1.textContent = "Year Founded: " + towns[6].yearFounded;
         p2.textContent = "Population: " + towns[6].currentPopulation;
         p3.textContent = "Annual Rain Fall: " + towns[6].averageRainfall;
-        image.setAttribute('src', towns[6].photo);
+        image.setAttribute('src',"./images/" + towns[6].photo);
+
+        towns[6].alt="Soda Springs";
 
         summary.appendChild(h3);
         summary.appendChild(h5);
