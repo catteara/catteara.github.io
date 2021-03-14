@@ -1,0 +1,299 @@
+.logo {
+    float: left;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 3%;
+    background-color: #dbe0e6;
+    border-radius: 50%;
+}
+
+header {
+    display: block;
+    background-color: #223559;
+    color: #dbe0e6;
+    margin-bottom: -25px;
+    padding-top: 20px;
+}
+
+body {
+    width: 100%;
+    background: #dbe0e6;
+}
+
+header h1 {
+    max-width: 500px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+header h5 {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+h2, h3, h5, li, p, div, footer, figcaption, label, legend, input {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+nav button {
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #dbe0e6;
+}
+
+nav {
+    text-align:center;
+    background-color: #223559;
+    font-family: 'Gothic A1', sans-serif;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #dbe0e6;
+    border-top: 1px solid #0c0c0c;
+    text-align: center;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    color: #223559;
+}
+
+div {
+    padding: 10px 5px;
+}
+
+footer div {
+    border: 1px solid #dbe0e6;
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+footer, .link {
+    background: #223559;
+    color: #dbe0e6;
+    padding: 20px;
+    text-align: center;
+}
+
+li a:visited, footer a:hover{
+    text-decoration: none;
+}
+
+li.active a {
+    color: #223559;
+    background-color: #adfffa;
+    font-weight: bold;
+} 
+
+nav ul li:hover {
+    font-weight: bold;
+    background-color: #5d5988;
+}
+
+.hero {
+    max-width: 1150px;
+    width: 100%;
+}
+
+.article {
+    max-width: 250px;
+}
+
+.map {
+    max-width: 600px;
+    width: 70%;        
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+
+#pancakes {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #adfffa;
+    color: #223559;
+}
+
+.social {
+    background-color: #dbe0e6;
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.social:hover {
+    background-color: #adfffa;
+}
+
+#summary img {
+    width: 50px;
+}
+
+#summary li{
+    list-style-type: none;
+    display:block;
+}
+
+#summary, #summary ul{
+    padding: 0;
+}
+
+#summary .high{
+    font-weight: bold;
+}
+
+figure {
+    display: inline-block;
+    background-color: white;
+    width: 330px;
+    height: 375px;
+    text-align: center;
+}
+figure img.gallery {
+    max-width: 300px;
+    padding-top: 15px;
+}
+
+figcaption {
+    display: none;
+    position: relative;
+}
+
+figure:hover figcaption {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+  
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+/* Form */
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #223559;
+    border-radius: 10px;
+    padding: .5rem 2%
+}
+
+form legend {
+    color: #223559;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #223559;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #223559;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: .5rem;
+    color: #223559;
+}
+
+form input.submitButton {
+    border: none;
+    background-color: #5d5988;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width:20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 4px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 4px;
+}
+
+.larger, .range, datalist {
+    height: 40px;
+    display: block;
+}
+
+.radio {
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+section {
+    background-color: #223559;
+    color: #dbe0e6;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+div h5{
+    margin-top: -15px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+section img {
+    max-width: 80%;
+}
