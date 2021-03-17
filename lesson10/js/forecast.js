@@ -22,7 +22,14 @@ fetch(URL)
         weekday[3] = "Wednesday";
         weekday[4] = "Thursday";
         weekday[5] = "Friday";
-        weekday[6] = "Saturday";  
+        weekday[6] = "Saturday";
+        weekday[7] = "Sunday";
+        weekday[8] = "Monday";
+        weekday[9] = "Tuesday";
+        weekday[10] = "Wednesday";
+        weekday[11] = "Thursday";
+        weekday[12] = "Friday";
+        weekday[13] = "Saturday";   
 
         document.getElementById('day1').textContent = weekday[x+1];
         document.getElementById('day2').textContent = weekday[x+2];
@@ -65,3 +72,4 @@ fetch(URL)
         document.getElementById('low4').textContent = list[3].main.temp_min + '\xB0';
         document.getElementById('low5').textContent = list[4].main.temp_min + '\xB0';
   });
+ 

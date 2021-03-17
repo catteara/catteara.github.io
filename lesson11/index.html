@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment: Home Page.">
+    <title>Weather Weekly:Preston Town Page</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson11/css/small.css">
+    <link rel="stylesheet" href="/lesson11/css/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/large.css">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+</head>
+
+<body>
+    <div id="pancakes"></div>
+    <header>
+        <img src="/lesson3/images/iconfinder_sun_4677537.png" alt="Weather Weekly Logo" class="logo">
+        <h1>Weather Weekly</h1>
+        <h5>More than just the weather</h5>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson10/preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson7/gallery.html">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <img class="mainImg" loading=lazy src="/lesson9/images/main.webp" alt="Main Image">
+        <div class="weather">
+            <h3>Contact Information</h3>
+            <p>Phone #</p>
+            <p>Email</p>
+        </div>
+        <div class="summaries">
+        </div>
+        <div class="news main">
+            <h3>News Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien ante, suscipit elementum viverra tincidunt, pellentesque ac orci. Maecenas non orci pharetra, tincidunt ipsum eu, molestie sem. Aliquam sapien nisi, fermentum ut placerat nec, rhoncus ut risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut aliquet accumsan leo at aliquam. Nulla consequat eros vel magna posuere, id consectetur nulla convallis. Donec non vehicula diam. Curabitur vel nulla ornare, euismod quam non, auctor diam. Phasellus imperdiet libero eu tortor viverra, vel efficitur mauris laoreet. Vivamus posuere at nulla vel lobortis. Vestibulum dapibus mauris sit amet fringilla fringilla. Sed ultricies orci quis lectus dignissim, id sollicitudin augue volutpat. Sed fringilla magna lacinia ipsum aliquam, in consequat enim condimentum.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Contact Information</p>
+        <p>&#9993; Email</p>
+        <p>&#128222;Phone Number</p>
+        <img class="map" src="/lesson5/images/map.webp" alt="Map of Preston Idaho"><br>
+        &#169;Weather Weekly | Catteara Allred
+        <br><br>
+        <span id="rightNow"></span> <br><br>
+        <a href="https://www.facebook.com/"><img class="social" src="/lesson5/images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img class="social" src="/lesson5/images/instagram.png" alt="instagram"></a>
+        <a href="https://www.twitter.com/"><img class="social" src="/lesson5/images/twitter.png" alt="twitter"></a>
+    </footer>
+    <script src="/lesson6/js/right-now.js"></script>
+    <script src="/lesson9/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                "DM Serif Display",
+                "Gothic A1"
+              ]
+            }
+          });
+    </script>
+</body>
+
+</html>

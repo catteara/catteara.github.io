@@ -1,0 +1,157 @@
+@media only screen and (min-width: 1024px) {
+
+  .logo {
+    margin-right: 20px;
+  }
+
+  header, nav{
+    max-width: 1475px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    text-align: left;
+    width: 700px;
+    margin-right: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  footer {
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  footer div {
+    float: left;
+    border: 1px solid #dbe0e6;
+    margin-top: -140px;
+    padding: 100px;
+  }
+
+  .hero {
+    display: inline-block;
+    max-width: 1150px;
+    width: 100%;
+    position: relative;
+  }
+
+  .news{
+    display: grid;
+    grid-template-columns: 70% 5% 30%;
+  }
+
+  .article {
+    width: 250px;
+    grid-column: 3/4;
+  }
+
+  div.news p {
+    grid-column: 1/2;
+  }
+
+  .map{
+    float:left;
+    max-width: 400px;
+    margin-top: -125px;
+  }
+
+  #summary ul {
+    padding: 0;
+  }
+
+  #summary img {
+    width: 140px;
+  }
+
+  #summary li{
+    display: inline-block;
+    width: 140px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .weather {
+    top: 275px;
+    left: 200px;
+  }
+
+  figure:hover {
+    box-shadow: 3px 3px 5px #5d5988;
+  }
+
+  div.summaries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
+
+  section{
+    display: block;
+  }
+    
+  section:nth-child(1) {
+    grid-column: 1;
+  }
+
+  section:nth-child(2) {
+    grid-column: 2;
+  }
+
+  section:nth-child(3) {
+    grid-column: 3;
+  }
+
+  div.news.main {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+  #gallery {
+    display: block;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+  }
+
+  figure {
+    min-width: 260px;
+    min-height: 350px;
+    max-width: 400px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    padding-bottom:5px;
+  }
+  figure img.gallery {
+    max-width: 90%;
+  }
+
+  figure:hover figcaption {
+    padding-left: 1%;
+  }
+
+  /* form */
+  form label.sbs {
+    padding: .4rem 0;
+}
+
+  .submitButton:hover {
+    color: #223559;
+    background-color: #adfffa;
+    border: 1px solid #223559;
+  }
+
+}
