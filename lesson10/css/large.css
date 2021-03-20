@@ -65,24 +65,26 @@
     margin-top: -125px;
   }
 
-  #summary ul {
-    padding: 0;
-  }
-
-  #summary img {
-    width: 140px;
-  }
-
-  #summary li{
+  #summary div {
     display: inline-block;
-    width: 140px;
-    padding-top: 15px;
-    text-align: center;
+  }
+
+  #summary div img {
+    width: 80px;
+  }
+
+  #summary p {
+    display: block;
   }
 
   .weather {
-    top: 275px;
+    background-color: #dbe0e6;
+    opacity: 80%;
+    position: absolute;
+    top: 295px;
     left: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   figure:hover {
