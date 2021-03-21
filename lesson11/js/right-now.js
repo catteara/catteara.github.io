@@ -18,7 +18,7 @@ function toggleMenu() {
 }
 
 
-if (dayName == "Friday" && document.getElementById("town-page").getAttribute("city-id") == 5604473){
+if (dayName == "Friday"){
         document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."   
 } else {
     document.getElementById("pancakes").style.display = 'none';

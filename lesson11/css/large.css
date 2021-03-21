@@ -5,7 +5,7 @@
   }
 
   header, nav{
-    max-width: 1475px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -27,7 +27,7 @@
     padding-top: 50px;
     padding-right: 10%;
     padding-bottom: 50px;
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -65,24 +65,26 @@
     margin-top: -125px;
   }
 
-  #summary ul {
-    padding: 0;
-  }
-
-  #summary img {
-    width: 140px;
-  }
-
-  #summary li{
+  #summary div {
     display: inline-block;
-    width: 140px;
-    padding-top: 15px;
-    text-align: center;
+  }
+
+  #summary div img {
+    width: 80px;
+  }
+
+  #summary p {
+    display: block;
   }
 
   .weather {
-    top: 275px;
+    background-color: #dbe0e6;
+    opacity: 80%;
+    position: absolute;
+    top: 295px;
     left: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   figure:hover {
@@ -129,8 +131,8 @@
   figure {
     min-width: 260px;
     min-height: 350px;
-    max-width: 400px;
-    max-height: 500px;
+    max-width: 300px;
+    max-height: 400px;
     width: 100%;
     height: 100%;
     padding-bottom:5px;

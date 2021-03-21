@@ -158,21 +158,23 @@ nav ul li:hover {
     background-color: #adfffa;
 }
 
-#summary img {
-    width: 50px;
+#summary div {
+    display: block;
+    text-align: left;
+    margin-right: 30px;
 }
 
-#summary li{
-    list-style-type: none;
-    display:block;
+#summary p {
+    display: inline;
 }
 
-#summary, #summary ul{
+#summary div img {
+    width: 40px;
+    padding: 0 10px;
+}
+
+#summary {
     padding: 0;
-}
-
-#summary .high{
-    font-weight: bold;
 }
 
 figure {
@@ -182,18 +184,20 @@ figure {
     height: 375px;
     text-align: center;
 }
+
+figure img.gallery {
+    max-width: 300px;
+    padding-top: 15px;
+}
+
 figure img.gallery {
     max-width: 300px;
     padding-top: 15px;
 }
 
 figcaption {
-    display: none;
-    position: relative;
-}
-
-figure:hover figcaption {
     display: block;
+    position: relative;
     text-align: center;
     padding-top: 20px;
 }

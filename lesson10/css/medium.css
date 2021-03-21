@@ -21,21 +21,16 @@
   position: relative;
   }
 
-figure {
-  width: 230px;
-  height: 300px;
-  margin: 0px;
-  margin-bottom: 40px;
-  margin-right: 5px;
-}
-figure img.gallery {
-  max-width: 200px;
-}
-
-figure:hover figcaption {
-  position: absolute;
-  margin-left: 15px;
-}
+  figure {
+    width: 230px;
+    height: 300px;
+    margin: 0px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+  }
+  figure img.gallery {
+    max-width: 200px;
+  }
 
 section {
   display: grid;

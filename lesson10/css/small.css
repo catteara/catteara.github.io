@@ -184,18 +184,20 @@ figure {
     height: 375px;
     text-align: center;
 }
+
+figure img.gallery {
+    max-width: 300px;
+    padding-top: 15px;
+}
+
 figure img.gallery {
     max-width: 300px;
     padding-top: 15px;
 }
 
 figcaption {
-    display: none;
-    position: relative;
-}
-
-figure:hover figcaption {
     display: block;
+    position: relative;
     text-align: center;
     padding-top: 20px;
 }

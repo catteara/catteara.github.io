@@ -68,4 +68,3 @@ fetch(requestURL)
 
     
   });
-

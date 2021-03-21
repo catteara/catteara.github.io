@@ -1,5 +1,8 @@
+const cityID = document
+  .getElementById("town-page")
+  .getAttribute("city-id");
 
-const URL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=9f6e867aadd6669d3ad428534541ab88'
+  const URL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&appid=9f6e867aadd6669d3ad428534541ab88&units=imperial`;
 fetch(URL)
   .then((response) => response.json())
   .then((jsObject) => {

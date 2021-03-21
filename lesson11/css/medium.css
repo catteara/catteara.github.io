@@ -21,35 +21,16 @@
   position: relative;
   }
 
-  #summary li{
-    padding: 5px;
-}
-
-.weather {
-  background-color: #dbe0e6;
-  opacity: 80%;
-  position: absolute;
-  top: 245px;
-  left: 150px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-figure {
-  width: 230px;
-  height: 300px;
-  margin: 0px;
-  margin-bottom: 40px;
-  margin-right: 5px;
-}
-figure img.gallery {
-  max-width: 200px;
-}
-
-figure:hover figcaption {
-  position: absolute;
-  margin-left: 15px;
-}
+  figure {
+    width: 230px;
+    height: 300px;
+    margin: 0px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+  }
+  figure img.gallery {
+    max-width: 200px;
+  }
 
 section {
   display: grid;
@@ -79,6 +60,32 @@ section:nth-child(odd) h3, section:nth-child(odd) h5, section:nth-child(odd) p {
 section:nth-child(odd) img {
   grid-column: 3/4;
   grid-row: 1/6;
+}
+
+#summary div {
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+}
+
+#summary div img {
+  width: 40px;
+}
+
+#summary p {
+  display: block;
+}
+
+#event {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+#event div {
+  padding: 10px 80px;
+  background-color: #223559;
+  color: #dbe0e6;
 }
 
 }
