@@ -10,7 +10,12 @@
     margin-right: auto;
   }
 
-  h1 {
+  header {
+    padding-bottom: 20px;
+  }
+
+  header h1 {
+    max-width: 100%;
     text-align: left;
     width: 700px;
     margin-right: 0;
@@ -40,7 +45,7 @@
 
   .hero {
     display: inline-block;
-    max-width: 1150px;
+    max-width: 1600px;
     width: 100%;
     position: relative;
   }
@@ -82,7 +87,7 @@
     opacity: 80%;
     position: absolute;
     top: 295px;
-    left: 200px;
+    left: 300px;
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -116,6 +121,7 @@
 
   div.news.main {
     display: block;
+    max-width: 1000px;
   }
 
 }
@@ -131,8 +137,8 @@
   figure {
     min-width: 260px;
     min-height: 350px;
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 700px;
     width: 100%;
     height: 100%;
     padding-bottom:5px;
@@ -155,5 +161,29 @@
     background-color: #adfffa;
     border: 1px solid #223559;
   }
+
+}
+
+@media only screen and (min-width: 1700px) {
+
+h3, h5, li, p, a, div, footer, figcaption, label, legend, input {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.hero {
+  max-width: 2000px;
+}
+
+.weather {
+  top: 350px;
+}
 
 }
