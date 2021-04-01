@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1024px) {
+
+  .logo {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  header, nav{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header h1 {
+    max-width: 800px;
+    padding-top: 40px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  header h1 {
+    max-width: 100%;
+    text-align: left;
+    width: 700px;
+    margin-right: 0;
+  }
+
+  ul li {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  footer {
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    display: inline-block;
+    max-width: 1000px;
+    width: 60%;
+    position: relative;
+  }
+
+
+}

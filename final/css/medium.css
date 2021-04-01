@@ -1,0 +1,51 @@
+@media only screen and (min-width: 617px) {
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 1.2rem 1.2rem .7rem 1.2rem;
+  }
+
+  #primaryNav {
+    margin-top: 10px;
+  }
+
+  nav ul li.active a {
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  nav ul li:hover a {
+    border-radius: 50px 50px 0px 0px;
+    border: none;
+  }
+
+  .hero {
+    position: relative;
+    }
+
+ header h1 {
+    max-width: 800px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
+
+ 
+
+
+}
