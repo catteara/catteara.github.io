@@ -1,5 +1,4 @@
 @media only screen and (min-width: 617px) {
-
   nav button {
     display: none;
   }
@@ -18,7 +17,7 @@
 
   nav ul li a {
     border: none;
-    padding: 1.2rem 1.2rem .7rem 1.2rem;
+    padding: 1.2rem 1.2rem 0.7rem 1.2rem;
   }
 
   #primaryNav {
@@ -36,16 +35,11 @@
 
   .hero {
     position: relative;
-    }
+  }
 
- header h1 {
+  header h1 {
     max-width: 800px;
     padding-top: 50px;
     font-size: 1.5rem;
-}
-
-
- 
-
-
+  }
 }

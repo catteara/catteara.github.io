@@ -1,105 +1,160 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Phoenix Chambers of Commerce: Home Page</title>
-    <meta name="description" content="Final Project">
-    <link rel="stylesheet" href="/final/css/normalize.css">
-    <link rel="stylesheet" href="/final/css/small.css">
-    <link rel="stylesheet" href="/final/css/medium.css">
-    <link rel="stylesheet" href="/final/css/large.css">
-    <link rel="shortcut icon" href="#">
-</head>
+    <meta name="description" content="Final Project" />
+    <link rel="stylesheet" href="/final/css/normalize.css" />
+    <link rel="stylesheet" href="/final/css/small.css" />
+    <link rel="stylesheet" href="/final/css/medium.css" />
+    <link rel="stylesheet" href="/final/css/large.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="/final/index.html">
-            <img src="/final/images/logo.png" alt="Chambers of Commerce Logo" class="logo">
-        </a>
-        <h1>Phoenix Chambers of Commerce</h1>
-
+      <a href="/final/index.html">
+        <img
+          src="/final/images/logo.png"
+          alt="Chambers of Commerce Logo"
+          class="logo"
+        />
+      </a>
+      <h1>Phoenix Chambers of Commerce</h1>
     </header>
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active"><a href="/final/index.html">Home</a></li>
-            <li><a href="/final/city.html">City</a></li>
-            <li><a href="/final/join.html">Join</a></li>
-            <li><a href="/final/directory.html">Directory</a></li>
-            <li><a href="/final/contact.html">Contact</a></li>
-        </ul>  
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li class="active"><a href="/final/index.html">Home</a></li>
+        <li><a href="/final/city.html">City</a></li>
+        <li><a href="/final/join.html">Join</a></li>
+        <li><a href="/final/directory.html">Directory</a></li>
+        <li><a href="/final/contact.html">Contact</a></li>
+      </ul>
     </nav>
     <main>
-        <h2><!--Left empty on purpose for consitent spacing over website--></h2>
-        <img src="/final/images/hero.webp" alt="Light Rail Station" class="hero">
-        <button type="button" class="member-button">
-            Become a Member
-        </button>
-        <div class='goal'>
-            <h2>Growing Greater Phoenix since 1888.</h2>
-            <p>The Greater Phoenix Chamber is Arizona’s largest chamber and leading business organization. Through service to a broad, diverse membership base, the Chamber steadfastly serves as the voice of business and a champion of growth.
-                The Greater Phoenix Chamber promotes regional prosperity, serving as a catalyst for economic vitality and strong communities.The Greater Phoenix Chamber: Advocates for businesses at every level
-                Connects businesses by cultivating community Develops key programs to foster economic prosperity Strengthens the region’s foundation for business success
-                The Chamber continually adapts to meet the needs of businesses, identifies and solves problems that restrict economic growth, and convenes community leaders to move Phoenix forward.
-                As the most established business organization in the state, the Chamber strives to be a catalyst for business at all levels.
-            </p>
+      <h2><!--Left empty on purpose for consitent spacing over website--></h2>
+      <img
+        src="/final/images/hero.webp"
+        alt="Light Rail Station"
+        class="hero"
+      />
+      <!--Call to Action-->
+      <button type="button" class="member-button">Become a Member</button>
+
+      <!--Purpose and Goals-->
+      <div class="about">
+        <h2>Growing Greater Phoenix since 1888.</h2>
+        <p>
+          The Greater Phoenix Chamber is Arizona’s largest chamber and leading
+          business organization. Through service to a broad, diverse membership
+          base, the Chamber steadfastly serves as the voice of business and a
+          champion of growth.
+        </p>
+        <p>The Greater Phoenix Chamber:</p>
+        <ul>
+          <li>Advocates for businesses at every level</li>
+          <li>Connects businesses by cultivating community</li>
+          <li>Develops key programs to foster economic prosperity</li>
+          <li>Strengthens the region’s foundation for business success</li>
+        </ul>
+        <p>
+          As the most established business organization in the state, the
+          Chamber strives to be a catalyst for business at all levels.
+        </p>
+      </div>
+      <!--End Purpose and Goals-->
+
+      <!--Ads-->
+      <a href="https://www.policyconnect.com/">
+        <img src="/final/images/ad-one.png" alt="Phoenix Realtors" class="ad" />
+      </a>
+      <a href="https://www.nbarizona.com/">
+        <img
+          src="/final/images/ad-two.png"
+          alt="National Bank of Arizona"
+          class="ad"
+        />
+      </a>
+      <a href="https://www.arizonafuture.org/">
+        <img src="/final/images/ad-three.png" alt="Arizona Future" class="ad" />
+      </a>
+      <!--End Ads-->
+
+      <!--Events-->
+      <h3>Upcoming Events</h3>
+      <a href="#calender" class="events-link">
+        <div class="events">
+          <h4 class="date">13 April</h4>
+            <p>Diversity and Inclusion Program Launch</p>
         </div>
-
-        <!--Ads-->
-        <a href="https://www.policyconnect.com/">
-            <img src="/final/images/ad-one.png" alt="Phoenix Realtors" class="ad">
-        </a>
-        <a href="https://www.nbarizona.com/">
-            <img src="/final/images/ad-two.png" alt="National Bank of Arizona" class="ad">
-        </a>
-        <a href="https://www.arizonafuture.org/">
-            <img src="/final/images/ad-three.png" alt="Arizona Future" class="ad">
-        </a>
-        <!--End Ads-->
-
-        <!--Events-->
-        <div>
-            <h3>Upcoming Events</h3>
-                <p><strong>Date</strong> Event Detailssss</p>
-                <p><strong>Date</strong> Event Detailssss</p>
-                <p><strong>Date</strong> Event Detailssss</p>
+        <div class="events">
+          <h4 class="date">30 April</h4>
+            <p>Leading Through Recovery with Phoenix Mayor Kate Gallego</p>
         </div>
-        <!--End Events-->
+        <div class="events">
+          <h4 class="date">4 May</h4>
+            <p>Professional Women's Alliance: Growing and Developing Women Leaders</p>
+        </div>
+      </a>
+      <!--End Events-->
 
+      <!--Weather-->
+      <div class="weather">
+        <h3>Weather</h3>
+            <p>Currently: <span id="temp"></span>&#176;F</p>
+            <p><span id="current"></span></p>
+            <p>Humidty: <span id="humidity"></span>%</p>
+            <div id="summary" class="forecast"></div>
+      </div>
+      <!--End Weather-->
     </main>
     <footer>
-        <div class="footer-contact">
-            <h4>Contact Information</h4>
-            <p>&#9993; phoenix@commerce.com</p>
-            <p>&#128222;(123) 456-7890</p>
-        </div>
-        <a href="/final/index.html">
-            <img src="/final/images/logo.png" alt="Chambers of Commerce Logo" class="footer-logo">
-        </a>
-        <br>
-        <div class="footer-social">
-            <a href="https://www.facebook.com/"><img class="social" src="/final/images/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/"><img class="social" src="/final/images/instagram.png" alt="instagram"></a>
-            <a href="https://www.twitter.com/"><img class="social" src="/final/images/twitter.png" alt="twitter"></a>
-            <br><br>
-            &#169;Phoenix Chambers of Commerce |<span><a href="https://openweathermap.org/" class="link">OpenWeatherMap</a></span>| Catteara Allred
-            <br><br>
-            <span id="rightNow"></span>
-        </div>
+      <div class="footer-contact">
+        <h4>Contact Information</h4>
+        <p>&#9993; phoenix@commerce.com</p>
+        <p>&#128222;(123) 456-7890</p>
+      </div>
+      <a href="/final/index.html">
+        <img
+          src="/final/images/logo.png"
+          alt="Chambers of Commerce Logo"
+          class="footer-logo"
+        />
+      </a>
+      <br />
+      <div class="footer-social">
+        <a href="https://www.facebook.com/"
+          ><img class="social" src="/final/images/facebook.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img
+            class="social"
+            src="/final/images/instagram.png"
+            alt="instagram"
+        /></a>
+        <a href="https://www.twitter.com/"
+          ><img class="social" src="/final/images/twitter.png" alt="twitter"
+        /></a>
+        <br /><br />
+        &#169;Phoenix Chambers of Commerce |<span
+          ><a href="https://openweathermap.org/" class="link"
+            >OpenWeatherMap</a
+          ></span
+        >| Catteara Allred <br /><br />
+        <span id="rightNow"></span>
+      </div>
     </footer>
     <script src="/final/js/right-now.js"></script>
+    <script src="/final/js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-        WebFont.load({
-            google: {
-              families: [
-                "Mulish"
-              ]
-            }
-          });
+      WebFont.load({
+        google: {
+          families: ["Mulish"],
+        },
+      });
     </script>
-</body>
-
+  </body>
 </html>
