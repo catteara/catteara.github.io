@@ -215,3 +215,55 @@ main {
     padding: 10px;
     text-align: center;
 }
+
+.home-lg {
+    display: none;
+}
+
+/*City Page*/
+
+.history {
+  background-color: rgb(196, 104, 90, 0.2);
+  padding: 10px;
+  margin-top: 10px
+}
+
+.history h3{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.history h4 {
+  margin-bottom: 0;
+}
+
+.history p {
+  margin-top: 2px;
+}
+
+.history hr {
+  height: 1px;
+  background-color: #c4685a;
+  border: none;
+}
+
+.demo ul {
+  padding: 0;
+}
+
+.demo ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.demo ul li:nth-child(odd) {
+  background-color: rgb(196, 104, 90, 0.2);
+}
+
+.demo .tab {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+

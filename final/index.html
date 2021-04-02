@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Phoenix Chambers of Commerce: Home Page</title>
     <meta name="description" content="Final Project" />
-    <link rel="stylesheet" href="/final/css/normalize.css" />
-    <link rel="stylesheet" href="/final/css/small.css" />
-    <link rel="stylesheet" href="/final/css/medium.css" />
-    <link rel="stylesheet" href="/final/css/large.css" />
-    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
   </head>
 
   <body>
     <header>
-      <a href="/final/index.html">
+      <a href="index.html">
         <img
-          src="/final/images/logo.png"
+          src="images/logo.png"
           alt="Chambers of Commerce Logo"
           class="logo"
         />
@@ -26,20 +26,17 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
-        <li class="active"><a href="/final/index.html">Home</a></li>
-        <li><a href="/final/city.html">City</a></li>
-        <li><a href="/final/join.html">Join</a></li>
-        <li><a href="/final/directory.html">Directory</a></li>
-        <li><a href="/final/contact.html">Contact</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="home">
       <h2><!--Left empty on purpose for consitent spacing over website--></h2>
-      <img
-        src="/final/images/hero.webp"
-        alt="Light Rail Station"
-        class="hero"
-      />
+      <img src="images/hero.webp" alt="Light Rail Station" loading=lazy class="hero"/>
+
       <!--Call to Action-->
       <button type="button" class="member-button">Become a Member</button>
 
@@ -69,17 +66,17 @@
       <!--Ads-->
       <div class="ads">
         <a href="https://www.policyconnect.com/">
-          <img src="/final/images/ad-one.png" alt="Phoenix Realtors" class="ad" />
+          <img src="images/ad-one.png" alt="Phoenix Realtors" class="ad" />
         </a>
         <a href="https://www.nbarizona.com/">
           <img
-            src="/final/images/ad-two.png"
+            src="images/ad-two.png"
             alt="National Bank of Arizona"
             class="ad"
           />
         </a>
         <a href="https://www.arizonafuture.org/">
-          <img src="/final/images/ad-three.png" alt="Arizona Future" class="ad" />
+          <img src="images/ad-three.png" alt="Arizona Future" class="ad" />
         </a>
       </div>
       <!--End Ads-->
@@ -87,7 +84,7 @@
       <!--Events-->
       <div  class="events-container">
         <h3>Upcoming Events</h3>
-        <a href="#calender" class="events-link">
+        <a href="city.html#calender" class="events-link">
           <div class="events">
             <h4 class="date">13 April</h4>
               <p>Diversity and Inclusion Program Launch</p>
@@ -113,6 +110,7 @@
             <div id="summary" class="forecast"></div>
       </div>
       <!--End Weather-->
+      <img src="images/home-lg.webp" alt="Arizona View" loading=lazy class="home-lg" />
     </main>
     <footer>
       <div class="footer-contact">
@@ -120,27 +118,24 @@
         <p>&#9993; phoenix@commerce.com</p>
         <p>&#128222;(123) 456-7890</p>
       </div>
-      <a href="/final/index.html">
+      <a href="index.html">
         <img
-          src="/final/images/logo.png"
+          src="images/logo.png"
           alt="Chambers of Commerce Logo"
           class="footer-logo"
         />
       </a>
       <br />
       <div class="footer-social">
-        <a href="https://www.facebook.com/"
-          ><img class="social" src="/final/images/facebook.png" alt="facebook"
-        /></a>
-        <a href="https://www.instagram.com/"
-          ><img
-            class="social"
-            src="/final/images/instagram.png"
-            alt="instagram"
-        /></a>
-        <a href="https://www.twitter.com/"
-          ><img class="social" src="/final/images/twitter.png" alt="twitter"
-        /></a>
+        <a href="https://www.facebook.com/">
+          <img class="social" src="images/facebook.png" alt="facebook"/>
+        </a>
+        <a href="https://www.instagram.com/">
+          <img class="social" src="images/instagram.png" alt="instagram"/>
+        </a>
+        <a href="https://www.twitter.com/">
+          <img class="social" src="images/twitter.png" alt="twitter"/>
+        </a>
         <br /><br />
         &#169;Phoenix Chambers of Commerce |<span
           ><a href="https://openweathermap.org/" class="link"
@@ -150,8 +145,8 @@
         <span id="rightNow"></span>
       </div>
     </footer>
-    <script src="/final/js/right-now.js"></script>
-    <script src="/final/js/weather.js"></script>
+    <script src="js/right-now.js"></script>
+    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({

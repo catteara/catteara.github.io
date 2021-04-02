@@ -39,7 +39,7 @@
     font-size: 1.5rem;
   }
 
-  main {
+  .home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -78,5 +78,15 @@
     grid-column: 2;
     grid-row: 5;
   }
+  
+  .demo ul li {
+    padding: 10px;
+  }
+  
+  .demo .tab {
+    float: right;
+  }
+  
+  
 
 }
