@@ -95,4 +95,40 @@
     width: 100%;
   }
 
+  .imagery {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagery img{
+    width: 23%;
+    max-width: 200px;
+    padding-right: 1%;
+  }
+
+  .history, #calender {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form input {
+    height: 25px;
+  }
+
+  form textarea {
+    width: 60%;
+  }
+
+  .submitButton {
+    height: 40px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }

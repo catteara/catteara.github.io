@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Phoenix Chambers of Commerce: City</title>
-    <meta name="description" content="Final Project" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-    <link rel="shortcut icon" href="images/favicon.ico">
-  </head>
 
-  <body>
-    <header>
-      <a href="index.html">
-        <img
-          src="images/logo.png"
-          alt="Chambers of Commerce Logo"
-          class="logo"
-        />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phoenix Chambers of Commerce: City</title>
+  <meta name="description" content="Final Project" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Chambers of Commerce Logo" class="logo" />
+    </a>
+    <h1>Phoenix Chambers of Commerce</h1>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="city.html">City</a></li>
+      <li class="active"><a href="join.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form method="get" action="thanks.html">
+      <fieldset class="form-contain">
+        <legend>Applicant Information</legend>
+        <label class="top">First Name*
+          <input type="text" name="first" pattern="[A-Za-z]{1,}" required /></label>
+        <label class="top">Last Name*
+          <input type="text" name="last" pattern="[A-Za-z]{1,}" required /></label>
+        <label class="top">Title<input type="text" name="title" /></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required /></label>
+        <label class="top">Cell Phone <input type="tel" name="cell" placeholder="1235551234" /></label>
+      </fieldset>
+
+      <fieldset class="form-contain">
+        <legend>Business Information</legend>
+        <label class="top">Buisness Name* <input type="type" name="business" required /></label>
+        <label class="top">Buisness Address <input type="type" name="address" /></label>
+        <label class="top">Buisness Website<input type="type" name="website" /></label>
+        <label class="sbs" for="textarea">Description of Business
+          <textarea id="textarea" name="text" class="larger"></textarea>
+        </label>
+        <div class="level">Membership Level</div>
+        <label class="sbs radio"><input type="radio" name="audience" value="non-profit" />Non-Profit ($100)</label>
+        <label class="sbs radio"><input type="radio" name="audience" value="bronze" />Bronze ($200)</label>
+        <label class="sbs radio"><input type="radio" name="audience" value="silver" />Silver ($300)</label>
+        <label class="sbs radio"><input type="radio" name="audience" value="gold" />Gold ($1000)</label>
+        <div class="key">
+          <p><strong>Non-Profit:</strong> Includes directory listings.</p>
+          <p><strong>Bronze:</strong> Includes Non-Profit benfits, as well as business trainings.</p>
+          <p><strong>Silver:</strong> Includes Bronze benfits, as well as social media posts.</p>
+          <p><strong>Gold:</strong> Includes Silver benfits, as well as luncheon tickets, sponsorships, extra advertising, and more.</p>
+        </div>
+      </fieldset>
+
+      <input type="submit" value="Join Now!" class="submitButton" />
+    </form>
+  </main>
+  <footer>
+    <div class="footer-contact">
+      <h4>Contact Information</h4>
+      <p>&#9993; phoenix@commerce.com</p>
+      <p>&#128222;(123) 456-7890</p>
+    </div>
+    <a href="index.html">
+      <img src="images/logo.png" alt="Chambers of Commerce Logo" class="footer-logo" />
+    </a>
+    <br />
+    <div class="footer-social">
+      <a href="https://www.facebook.com/">
+        <img class="social" src="images/facebook.png" alt="facebook" />
       </a>
-      <h1>Phoenix Chambers of Commerce</h1>
-    </header>
-    <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;</button>
-      <ul id="primaryNav" class="hide">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="city.html">City</a></li>
-        <li class="active"><a href="join.html">Join</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      
-    </main>
-    <footer>
-      <div class="footer-contact">
-        <h4>Contact Information</h4>
-        <p>&#9993; phoenix@commerce.com</p>
-        <p>&#128222;(123) 456-7890</p>
-      </div>
-      <a href="index.html">
-        <img
-          src="images/logo.png"
-          alt="Chambers of Commerce Logo"
-          class="footer-logo"
-        />
+      <a href="https://www.instagram.com/">
+        <img class="social" src="images/instagram.png" alt="instagram" />
       </a>
-      <br />
-      <div class="footer-social">
-        <a href="https://www.facebook.com/">
-          <img class="social" src="images/facebook.png" alt="facebook"/>
-        </a>
-        <a href="https://www.instagram.com/">
-          <img class="social" src="images/instagram.png" alt="instagram"/>
-        </a>
-        <a href="https://www.twitter.com/">
-          <img class="social" src="images/twitter.png" alt="twitter"/>
-        </a>
-        <br /><br />
-        &#169;Phoenix Chambers of Commerce |<span
-          ><a href="https://openweathermap.org/" class="link"
-            >OpenWeatherMap</a
-          ></span
-        >| Catteara Allred <br /><br />
-        <span id="rightNow"></span>
-      </div>
-    </footer>
-    <script src="js/right-now.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["Mulish"],
-        },
-      });
-    </script>
-  </body>
+      <a href="https://www.twitter.com/">
+        <img class="social" src="images/twitter.png" alt="twitter" />
+      </a>
+      <br /><br />
+      &#169;Phoenix Chambers of Commerce |<span><a href="https://openweathermap.org/"
+          class="link">OpenWeatherMap</a></span>| Catteara Allred <br /><br />
+      <span id="rightNow"></span>
+    </div>
+  </footer>
+  <script src="js/right-now.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Mulish"],
+      },
+    });
+  </script>
+</body>
+
 </html>

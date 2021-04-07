@@ -115,9 +115,14 @@ footer a:hover {
   background-color: #c4685a;
 }
 
+.footer-social a {
+  text-decoration: none;
+}
+
 .hero {
   max-width: 1150px;
   width: 100%;
+  margin-top: 30px;
 }
 
 main {
@@ -225,7 +230,7 @@ main {
 .history {
   background-color: rgb(196, 104, 90, 0.2);
   padding: 10px;
-  margin-top: 10px
+  margin-top: 30px
 }
 
 .history h3{
@@ -266,4 +271,69 @@ main {
   padding-bottom: 5px;
 }
 
+form input, form textarea {
+  height: 40px;
+}
 
+form .radio input {
+  height: auto;
+  margin: 10px 0 ;
+}
+
+.submitButton {
+  width: 100%;
+  margin-top: 10px;
+  padding: 7px 0;
+  background-color: #115055;
+  color: #fcecd9;
+}
+
+.submitButton:hover {
+  background: #700a20;
+  color: #fcecd9;
+}
+
+form label.top input:required {
+  border-left: #c4685a solid 5px;
+}
+
+form label.top input:required:valid {
+  border-left: #115055 solid 5px;
+}
+
+form .top, form textarea {
+  display: grid;
+  max-width: 60%;
+  padding: 3px 0;
+}
+
+form .sbs {
+  display: block;
+}
+
+form .level {
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+form .radio {
+  padding-bottom: 5px;
+}
+
+.form-contain {
+  margin-top: 30px;
+}
+
+.key {
+  background-color: rgb(196, 104, 90, 0.2);
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+.key p {
+  margin: 10px;
+}
+
+.imagery {
+  display: block;
+}

@@ -1,0 +1,43 @@
+{"businesses":[  
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com", 
+    "logo":"logo.png", 
+    "link":"weblink.com"}, 
+
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com", 
+    "logo":"logo.png", 
+    "link":"weblink.com"},
+
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com",  
+    "logo":"logo.png", 
+    "link":"weblink.com"}, 
+
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com", 
+    "logo":"logo.png", 
+    "link":"weblink.com"}, 
+        
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com", 
+    "logo":"logo.png", 
+    "link":"weblink.com"},
+    
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com",  
+    "logo":"logo.png", 
+    "link":"weblink.com"},
+    
+    {"name":"#", 
+    "phone":"123-456-7890", 
+    "email":"#@gmail.com",  
+    "logo":"logo.png", 
+    "link":"weblink.com"}
+]}
