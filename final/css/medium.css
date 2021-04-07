@@ -76,7 +76,7 @@
 
   .weather {
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 4;
   }
   
   .demo ul li {
@@ -91,6 +91,10 @@
     display: inline;
     width: 20%;
     padding-right: 2%;
+  }
+
+  form .top, form textarea {
+    width: 60%;
   }
 
   

@@ -33,8 +33,30 @@
         <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main>
-      
+    <main class="contact-grid">
+      <h2>Contact Us!</h2>
+      <div class="info">
+        <p>(123) 456-7890</p>
+        <p>phoenix@commerce.com</p>
+        <p>201 N Central Ave #27, Phoenix, AZ 85004</p>
+      </div>
+      <div class="map-container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96929.00026662865!2d-112.04827662766539!3d33.498294451559325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1617774813462!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <form method="get" action="thanks.html" class="contact-form">
+        <fieldset class="form-contain contact-contain">
+          <legend>Contact Form</legend>
+          <label class="top contact">Name*<input type="type" name="name" required /></label>
+          <label class="top contact">Phone <input type="tel" name="cell" placeholder="1235551234" /></label>
+          <label class="top contact">Email*<input type="email" name="email" placeholder="example@gmail.com" required /></label>
+          <label class="sbs contact" for="textarea">Comment
+            <textarea id="textarea" name="text" class="larger"></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Send!" class="submitButton" />
+      </form>
+      <div class="directors">
+      </div>
     </main>
     <footer>
       <div class="footer-contact">
@@ -70,7 +92,6 @@
       </div>
     </footer>
     <script src="js/right-now.js"></script>
-    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({

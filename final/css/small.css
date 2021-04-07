@@ -271,8 +271,12 @@ main {
   padding-bottom: 5px;
 }
 
-form input, form textarea {
+form input {
   height: 40px;
+}
+
+form textarea {
+  height: 80px;
 }
 
 form .radio input {
@@ -303,7 +307,6 @@ form label.top input:required:valid {
 
 form .top, form textarea {
   display: grid;
-  max-width: 60%;
   padding: 3px 0;
 }
 
@@ -336,4 +339,20 @@ form .radio {
 
 .imagery {
   display: block;
+}
+
+.map {
+  width: 100%;
+  height: 200px;
+}
+
+.contact-contain {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-contain input, .contact-contain textarea {
+  width: 95%;
+  
 }
