@@ -363,7 +363,7 @@ form .radio {
 }
 
 .cards img {
-  filter: sepia();
+  filter: sepia(100%);
   margin-top: 10px;
   margin-bottom: 10px;
   max-width: 80%;
