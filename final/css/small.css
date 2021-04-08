@@ -354,5 +354,32 @@ form .radio {
 
 .contact-contain input, .contact-contain textarea {
   width: 95%;
-  
+}
+
+.cards section {
+  background-color: rgb(196, 104, 90, 0.2);
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.cards img {
+  filter: sepia();
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards img:hover {
+  filter: none;
+}
+
+.buttons {
+  display: none;
+}
+
+.directors {
+  width: 100%;
 }

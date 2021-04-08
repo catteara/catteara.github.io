@@ -97,7 +97,39 @@
     width: 60%;
   }
 
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+  }
+
+  .cards .column {
+    padding: 10px;
+  }
   
-  
+  .cards.grid { 
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .list-grid {
+    color: #700a20;
+    margin: 5px;
+    padding: 0;
+    border: none;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: transparent;
+  }
+
+  .list-grid:hover {
+    color: #c4685a;
+  }
+
 
 }

@@ -6,21 +6,22 @@ fetch("business.json")
     console.table(jsonObject);
     const businesses = jsonObject['businesses'];
 
-    for (let i = 0; i < jsonObject.length; i++ ) {
+    for (let i = 0; i < businesses.length; i++ ) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let name = document.createElement('p');
+        let h3 = document.createElement('h3');
         let phone = document.createElement('p');
         let email = document.createElement('p');
-        let link = document.createElement('p');
+        let link = document.createElement('a');
         let image = document.createElement('img');
 
-        h2.textContent = jsonObject[i].name;
-        name.textContent = 'Date of Birth: ';
-        image.setAttribute('src', jsonObject[i].logo);
+        card.classList.add("column")
+        h3.textContent = businesses[i].name;
+        phone.textContent = businesses[i].phone;
+        image.setAttribute('src', businesses[i].logo);
+        email.textContent = businesses[i].email;
+        link.textContent = businesses[i].link;
 
-        card.appendChild(h2);
-        card.appendChild(name);
+        card.appendChild(h3);
         card.appendChild(phone);
         card.appendChild(email);
         card.appendChild(link);
@@ -31,5 +32,12 @@ fetch("business.json")
 
     }
 
-    
-  });
+        document.getElementById("list").addEventListener("click", function(){
+          document.querySelector(".cards").classList.remove("grid");
+        });
+
+        document.getElementById("grid").addEventListener("click", function(){
+          document.querySelector(".cards").classList.add("grid");
+        });
+
+});
