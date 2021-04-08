@@ -95,6 +95,8 @@
     max-width: 1200px;
     grid-column: 1/5;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .imagery {
